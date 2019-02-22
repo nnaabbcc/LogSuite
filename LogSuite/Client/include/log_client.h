@@ -6,6 +6,7 @@
 
 extern "C" {
 
+DLLDECL void log_suite_config(myString_t configFile);
 DLLDECL void log_suite_log_item(myItem_t item);
 
 }
